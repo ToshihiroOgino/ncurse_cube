@@ -54,5 +54,4 @@ dkms.conf
 *.code-workspace
 .vscode
 bin
-*.exe
 *.stackdump
