@@ -1,0 +1,14 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory '/cygdrive/c/Users/tonig/OneDrive - 芝浦工業大学 教研テナント (SIC)/vscws/Rouge-Lite-Game'
+ 
+mkdir -p bin/obj
+ 
+mkdir -p bin/obj/
+gcc -Wall -I./include -c -o bin/obj/main.o src/main.c
+ 
+mkdir -p bin/obj/ui/
+gcc -Wall -I./include -c -o bin/obj/ui/cmd_pallet.o src/ui/cmd_pallet.c
+ 
+gcc -o bin/Game.exe bin/obj/core/terrain.o bin/obj/main.o bin/obj/ui/cmd_pallet.o bin/obj/ui/display.o bin/obj/ui/game.o bin/obj/unit/stats.o bin/obj/unit/unit_base.o bin/obj/util/error_handler.o bin/obj/util/linked_list.o bin/obj/util/unique_id.o -lcurses
+make: Leaving directory '/cygdrive/c/Users/tonig/OneDrive - 芝浦工業大学 教研テナント (SIC)/vscws/Rouge-Lite-Game'
+ 

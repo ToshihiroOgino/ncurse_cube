@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "ncurse_cube",
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.includePath": [
+			"C:/cygwin64/usr/include",
+			" ${workspaceFolder}/include/"
+		],
+		"files.associations": {
+			"algorithm": "c",
+			"stdio.h": "c",
+			"stdlib.h": "c",
+			"queue": "c",
+			"random": "c",
+			"ncurses.h": "c"
+		}
+	}
+}
